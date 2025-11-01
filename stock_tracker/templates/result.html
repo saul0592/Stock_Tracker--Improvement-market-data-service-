@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result of the Search</title>
+</head>
+<body>
+    {% if error %}
+    <h1>Error :</h1> 
+        <p>{{ error }}</p>
+    {% else %}
+    <h1>Price for the next stock is </h1>
+    <p> stock {{symbol}} </p>
+    <p> price: {{ price }}</p>
+    <small>Thanks for the information to the next provider {{provider}} </small>
+    
+    {%endif%}
+
+    <p><a href="/search">Another try? </a></p>
+</body>
+</html>
