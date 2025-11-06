@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+confluent-kafka
+python-dotenv
+httpx
+pydantic_settings
+jinja2 
+python-multipart
